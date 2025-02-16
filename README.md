@@ -1,4 +1,4 @@
-# Shopify Dashboard - Checkout Recovery Hub
+# Shopify Dashboard 
 
 A dashboard built with React and TypeScript to monitor and manage abandoned checkouts in Shopify stores. Features a clean, UI design using shadcn/ui components and Tailwind CSS.
 
