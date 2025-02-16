@@ -62,7 +62,7 @@ export function CheckoutList({ checkouts, className }: CheckoutListProps) {
                       >
                         <span>{item.title}</span>
                         <span className="text-muted-foreground">
-                          x{item.quantity}
+                         ( x{item.quantity})
                         </span>
                       </div>
                     ))}

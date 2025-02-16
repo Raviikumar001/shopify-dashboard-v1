@@ -1,4 +1,3 @@
-
 export const mockData = {
   orders: [
     {
@@ -16,24 +15,24 @@ export const mockData = {
           price: "25.00",
           sku: "TSHIRT-BLUE",
           variant_id: 201,
-          vendor: "Fashion Co.",
-        },
+          vendor: "Fashion Co."
+        }
       ],
       customer: {
         id: 301,
         first_name: "John",
         last_name: "Doe",
         email: "john.doe@example.com",
-        phone: "+1234567890",
+        phone: "+1234567890"
       },
       shipping_address: {
         address1: "123 Main St",
         city: "New York",
         province: "NY",
         country: "USA",
-        zip: "10001",
+        zip: "10001"
       },
-      abandoned_checkout_url: null,
+      abandoned_checkout_url: null
     },
     {
       id: 2,
@@ -50,18 +49,18 @@ export const mockData = {
           price: "75.00",
           sku: "SNEAKERS-RED",
           variant_id: 202,
-          vendor: "Shoe Co.",
-        },
+          vendor: "Shoe Co."
+        }
       ],
       customer: {
         id: 302,
         first_name: "Jane",
         last_name: "Smith",
         email: "jane.smith@example.com",
-        phone: "+0987654321",
+        phone: "+0987654321"
       },
       shipping_address: null,
-      abandoned_checkout_url: "https://checkout.shopify.com/123456",
+      abandoned_checkout_url: "https://checkout.shopify.com/123456"
     }
   ],
   abandoned_checkouts: [
@@ -79,7 +78,7 @@ export const mockData = {
           price: "60.00",
           sku: "JEANS-BLACK",
           variant_id: 203,
-          vendor: "Denim Co.",
+          vendor: "Denim Co."
         },
         {
           id: 104,
@@ -88,48 +87,20 @@ export const mockData = {
           price: "60.00",
           sku: "HAT-WHITE",
           variant_id: 204,
-          vendor: "Accessories Co.",
-        },
+          vendor: "Accessories Co."
+        }
       ],
       customer: {
         id: 303,
         first_name: "Alice",
         last_name: "Johnson",
         email: "alice.johnson@example.com",
-        phone: "+1122334455",
+        phone: "+1122334455"
       },
       shipping_address: null,
-      abandoned_checkout_url: "https://checkout.shopify.com/654321",
-    },
-    // Adding Jane Smith's pending order as an abandoned checkout
-    {
-      id: 2,
-      email: "jane.smith@example.com",
-      created_at: "2023-10-02T14:00:00Z",
-      updated_at: "2023-10-02T14:15:00Z",
-      total_price: "75.00",
-      line_items: [
-        {
-          id: 102,
-          title: "Red Sneakers",
-          quantity: 1,
-          price: "75.00",
-          sku: "SNEAKERS-RED",
-          variant_id: 202,
-          vendor: "Shoe Co.",
-        },
-      ],
-      customer: {
-        id: 302,
-        first_name: "Jane",
-        last_name: "Smith",
-        email: "jane.smith@example.com",
-        phone: "+0987654321",
-      },
-      shipping_address: null,
-      abandoned_checkout_url: "https://checkout.shopify.com/123456",
+      abandoned_checkout_url: "https://checkout.shopify.com/654321"
     }
-  ],
+  ]
 };
 
 export type MockData = typeof mockData;
