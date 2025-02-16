@@ -4,7 +4,7 @@ A dashboard built with React and TypeScript to monitor and manage abandoned chec
 
 ## Tech Stack
 
-- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [Vite](https://vitejs.dev/) - Frontend Tooling
 - [React](https://reactjs.org/) - UI Library
 - [TypeScript](https://www.typescriptlang.org/) - Type Safety
 - [shadcn/ui](https://ui.shadcn.com/) - UI Component Library
